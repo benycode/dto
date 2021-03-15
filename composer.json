@@ -1,5 +1,5 @@
 {
-    "name": "BenyCode/dto",
+    "name": "benycode/dto",
     "description": "data transfer object representation based on laravel validation",
     "keywords": [
         "BenyCode",

@@ -5,7 +5,6 @@ namespace BenyCode\DTO;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
-use Illuminate\Support\Arr;
 
 trait DTOTrait
 {
@@ -34,7 +33,7 @@ trait DTOTrait
         }, $data);
     }
 
-    private static function validate(): void
+    public function validate(): void
     {
         $validationRules = static::validationRules();
         $validator = Validator::make($this->toArray(), $validationRules);

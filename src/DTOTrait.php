@@ -5,6 +5,7 @@ namespace BenyCode\DTO;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Arr;
 
 trait DTOTrait
 {
